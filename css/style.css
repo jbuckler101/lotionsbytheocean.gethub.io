@@ -1,0 +1,96 @@
+/*Style The Body*/
+body {
+  margin: 0;
+  font-family: "Verdana", Arial, sans-serif;
+  display: block;
+}
+/*Navigation Bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav b {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0066ff;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.flex-item-left {
+  background-color: white;
+  flex: 10%;
+}
+.flex-item-middle {
+  background-color: #f1f1f1;
+  text-align: center;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: white;
+  padding: 0px;
+  text-align: left;
+  text-shadow: 2px 2px #6699ff;
+  flex: 50%;
+}
+
+.flex-item-left2 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  flex: 50%;
+}
+.flex-item-right2 {
+  background-color: #f1f1f1;
+  flex: 50%;
+}
+.flex-item-rightabout {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+  flex: 50%;
+}
+figcaption {
+  align-self: flex-end;
+  text-align: center;
+  font-size: 15px;
+}
+/*footer*/
+#grad1 {
+  height: 180px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(pink , lightgrey);
+  text-align: left;
+  padding: 10px;

@@ -1,0 +1,30 @@
+
+<body>
+<!--Title-->
+<div style="text-align:center">
+<h2>Marine Friends</h2>
+<p>Click on the images below:</p>
+</div>
+<!--Mouse over/hoover-->
+
+<!-- The five columns -->
+<div class="row">
+<div class="column">
+<div id="thumbnails">
+<img src="images/img1.png" id="Dolphin" alt="Dolphin smiling at the camera" class="thumbnail" style="width:19.8%; border: none" height="19.5%" onclick="addBorder(this.id)">
+<img src="images/img2.png" id="Turtle" alt="Turtle" class="thumbnail" style="width:19.8%; border: none" height="19.5%" onclick="addBorder(this.id)">
+<img src="images/img3.png" id="Clownfish" alt="Turtle" class="thumbnail" style="width:19.8%; border: none" height="19.5%" onclick="addBorder(this.id)">
+<img src="images/img4.png" id="Jellyfish" alt="Turtle" class="thumbnail" style="width:19.8%; border: none" height="19.5%" onclick="addBorder(this.id)">
+<img src="images/img5.png" id="Shark" alt="Turtle" class="thumbnail" style="width:19.8%; border: none" height="19.5%" onclick="addBorder(this.id)">
+</div>
+</div>
+</div>
+<!---large container-->
+<div class="container" id="lrgCont" style="display: none; position: relative; border: 5px solid #fafafa;">
+<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+<img id="expandedImg" style="width:100%">
+<div id="imgtext"></div>
+</div>
+ 
+
+</body>
